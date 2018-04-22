@@ -1,5 +1,13 @@
 version: 1.0.{build}
 build_script:
 - ps: dotnet restore
+- nuget restore
+
+build_script:
+  - choco install "msbuild-sonarqube-runner" -y
+  - MSBuild.SonarQube.Runner.exe begin /k:"cliArgs" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=e84e206101d805815ae32947f5ad2e4df90864b4"
+  - msbuild "cliArgs.sln"
+  - MSBuild.SonarQube.Runner.exe end /d:"sonar.login=e84e206101d805815ae32947f5ad2e4df90864b4"
+
 test_script:
 - ps: dotnet test ./cliTest/cliTest.csproj
