@@ -1,8 +1,0 @@
-/Users/jialiu/workspace/cliArgs/cliTest/obj/Debug/netstandard2.0/cliTest.csproj.CoreCompileInputs.cache
-/Users/jialiu/workspace/cliArgs/cliTest/obj/Debug/netstandard2.0/cliTest.AssemblyInfoInputs.cache
-/Users/jialiu/workspace/cliArgs/cliTest/obj/Debug/netstandard2.0/cliTest.AssemblyInfo.cs
-/Users/jialiu/workspace/cliArgs/cliTest/bin/Debug/netstandard2.0/cliTest.deps.json
-/Users/jialiu/workspace/cliArgs/cliTest/bin/Debug/netstandard2.0/cliTest.dll
-/Users/jialiu/workspace/cliArgs/cliTest/bin/Debug/netstandard2.0/cliTest.pdb
-/Users/jialiu/workspace/cliArgs/cliTest/obj/Debug/netstandard2.0/cliTest.dll
-/Users/jialiu/workspace/cliArgs/cliTest/obj/Debug/netstandard2.0/cliTest.pdb
