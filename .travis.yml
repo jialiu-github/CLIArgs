@@ -1,7 +1,15 @@
 language: csharp
 mono: none
 dotnet: 2.1.105
-
+addons:
+  sonarcloud:
+    organization: "cliArgs" 
+    token:
+      secure: e84e206101d805815ae32947f5ad2e4df90864b4
 script:   
   - dotnet restore
   - dotnet test ./cliTest/cliTest.csproj
+  
+
+script:
+  - sonar-scanner
