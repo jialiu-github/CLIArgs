@@ -9,7 +9,4 @@ addons:
 script:   
   - dotnet restore
   - dotnet test ./cliTest/cliTest.csproj
-  
-
-script:
   - sonar-scanner
