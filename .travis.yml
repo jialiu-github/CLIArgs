@@ -3,5 +3,5 @@ mono: none
 dotnet: 2.1.105
 
 script:   
-  - dotnet restore ./cliTest/cliTest.csproj
-  - dotnet test
+  - dotnet restore
+  - dotnet test ./cliTest/cliTest.csproj
